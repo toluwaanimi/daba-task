@@ -1,0 +1,24 @@
+{
+  "name": "daba-graphql-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -d",
+    "prepublishOnly": "rm -rf dist && npm run build",
+    "example": "npx ts-node example/index.ts"
+  },
+  "author": "ADEBAYO Emmanuel",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": ">=4.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "glob": "^10.3.10",
+    "graphql": "^16.8.1",
+    "graphql-tools": "^9.0.0",
+    "ts-type-ast": "^1.0.7"
+  }
+}
