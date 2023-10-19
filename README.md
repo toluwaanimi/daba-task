@@ -1,6 +1,6 @@
-# Daba Task
+# Typescript to Graphql Generator
 
-## Documentation of Daba Task
+## Documentation of Task
 
 ## Author 🚀
 
